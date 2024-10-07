@@ -18,7 +18,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-app.post("/", async function (req, res) {
+app.post("https://adiifier.github.io/SignUp/", async function (req, res) {
   const username = req.body.username;
   const password = req.body.password;
 
