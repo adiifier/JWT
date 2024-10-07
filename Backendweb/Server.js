@@ -18,7 +18,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-app.post("/sign-up", async function (req, res) {
+app.post("/", async function (req, res) {
   const username = req.body.username;
   const password = req.body.password;
 
