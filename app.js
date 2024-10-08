@@ -6,7 +6,7 @@ const mssg = document.querySelector("#show");
 async function onClick() {
   const username = userInput.value;
   const password = passInput.value;
-  const response = await fetch("http://localhost:4000/sign-up", {
+  const response = await fetch("https://signup-rseu.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
